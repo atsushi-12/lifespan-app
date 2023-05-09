@@ -1,0 +1,13 @@
+.text {
+  background-color: #5B80DD;
+  color: #fff;
+  height: 4em;
+  border-radius:12px;
+  border:none;
+  text-align: center;
+  font-size:  clamp(1vw, 4vw, 10vw);
+  width: 100%;
+}
+.text::placeholder {
+  color: #fff;
+}

@@ -1,0 +1,31 @@
+
+.title {
+writing-mode: vertical-rl;
+font-weight: 400;
+font-size:  clamp(2vw, 8vw, 10vw);
+color: #000000;
+}
+.title_box{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 20;
+  top: 10%;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.img_box {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.boy {
+  position: relative;
+  left: -24%;
+  max-width: none;
+  width: 145%;
+}

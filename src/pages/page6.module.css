@@ -1,0 +1,195 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.gear_box {
+  position: relative;
+  z-index: 100000;
+}
+.gear {
+  height: 5vh;
+  width: 10%;
+  margin: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: 5%;
+}
+.life_message {
+  font-size:  clamp(1vw, 8vw, 12vw);
+  font-weight: normal;
+  text-align: center;
+  color: #5B80DD;
+  margin-top: 5%;
+  height: 10vh;
+  position: relative;
+  z-index: 999;
+
+}
+.minicontainer1 {
+  position: relative;
+  height: 35%;
+}
+.heart_box {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.heart_box img {
+  width: 90%;
+
+}
+.life_clock {
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+.year_num {
+  color: #fff;
+  font-weight: bolder;
+  font-size:  clamp(12vw, 24vw, 28vw);
+  margin: 0;
+}
+.year {
+  color: #fff;
+  font-size:  clamp(8vw, 10vw, 16vw);
+  margin: 0;
+}
+.man_box {
+  position: absolute;
+  right: 0;
+  top: -50%;
+  width: 70%;
+  z-index: 10;
+}
+.man {
+  transform:rotate(-5deg);
+}
+.minicontainer2 {
+  position: relative;
+  bottom: 5%;
+  display: flex;
+}
+.heartbeat_box {
+  width: 150%;
+  margin-top: 20%;
+  margin-left: 5%;
+  text-align: center;
+}
+.heartbeat{
+  width: 100%;
+}
+
+.girl_box {
+  width: 100%;
+}
+.girl {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+.life_span_box {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 3%;
+  margin-top: 30px;
+}
+.life_span{
+  position: absolute;
+  background-color: #5B80DD;
+  color: #fff;
+  text-align: center;
+  height: 2.5em;
+  border-radius:12px;
+  border:none;
+  font-size:  clamp(1vw, 5vw, 10vw);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.swimming_woman_box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  overflow: hidden;
+}
+.swimming_woman {
+  width: 120%;
+}
+.sample {
+	position:relative;
+	overflow:hidden;
+	box-shadow:0 4px 20px rgba(0, 0, 0, 0.2);
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	background-color:#f9afbd;
+  /* opacity: 0.2; */
+}
+
+	.sample::before,
+	.sample::after {
+		position:absolute;
+		left:-50%;
+		width:200%;
+		height:200%;
+		content:"";
+		background-color:#F56D86;
+		animation:wave linear 10s infinite;
+	}
+
+	.sample::before {
+		top:-155%;
+		border-radius:50% 40% / 50% 55%;
+	}
+
+	.sample::after {
+		top:-145%;
+		border-radius:40% 50% / 45% 50%;
+		opacity:0.2;
+		animation-delay:0.4s;
+	}
+
+@keyframes wave {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+.mask_img {
+  transform: translateX(6%);
+  width: 100%;
+  height: 40vh;
+  background-color: #F56D86;
+  mask-image: url("/images/heart1.svg");/*マスクレイヤーとして使用する画像*/
+  mask-repeat: no-repeat;
+  mask-size: auto 100%;
+  -webkit-mask-image: url("/images/heart1.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size:350px 350px;
+
+}
+
+.masked{
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}

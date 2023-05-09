@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.message_box {
+  position: relative;
+  top: 25%
+}
+.woman_box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.woman {
+  width: 120%;
+
+}
+.link {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}

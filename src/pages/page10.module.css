@@ -1,0 +1,105 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+.minicontainer1 {
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 20%;
+  text-align: left;
+}
+.boy {
+  position: absolute;
+  z-index: -10;
+  width: 70%;
+}
+.Message_box {
+  position: absolute;
+  right: 10%;
+  text-align: start;
+}
+
+.todos_box {
+  width: 100%;
+  position: relative;
+  z-index: 30;
+  transform: translateY(20%);
+}
+.todo {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+}
+.number {
+  width: 4em;
+  height: 4em;
+  background-color: #FB5267;
+  border-radius:50%;
+  text-align: center;
+  line-height: 4em;
+  color: #fff;
+  font-size:  clamp(1vw, 4vw, 10vw);
+}
+.text {
+  background-color: #5B80DD;
+  color: #fff;
+  height: 4em;
+  border-radius:12px;
+  border:none;
+  text-align: center;
+  font-size:  clamp(1vw, 4vw, 10vw);
+  width: 100%;
+  margin-bottom: 5%;
+}
+.text::placeholder {
+  color: #fff;
+}
+.minicontainer2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.wing {
+  width: 100%;
+  position: absolute;
+  bottom: 20%;
+  z-index: -20;
+}
+.man_box {
+  position: absolute;
+  width: 100%;
+  bottom: 80%;
+}
+.man {
+  width: 130%;
+  transform: translate(-6%, -6%);
+}
+.alian_man_box {
+  position: absolute;
+  top: 35%;
+  bottom: 0;
+  right: -10%;
+  width: 120%;
+}
+
+.miniheart_box {
+  position: relative;
+  position: absolute;
+  bottom: 20%;
+  left: 35%;
+}
+.miniheart_box p {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-54%, -25%);
+  color: #fff;
+}

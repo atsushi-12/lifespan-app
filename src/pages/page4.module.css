@@ -1,0 +1,49 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.Message_box {
+  text-align: center;
+  margin-top: 20%;
+}
+.p {
+  font-size:  clamp(1vw, 4vw, 10vw);
+  width: 100%;
+}
+.todos_box {
+  margin-top: 20%;
+}
+.man_box {
+  position: relative;
+
+  width: 130%;
+}
+
+/* .number {
+  width: 50px;
+  height: 50px;
+  background-color: #FB5267;
+  border-radius:50%;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  margin: 2%;
+}
+.text {
+  background-color: #5B80DD;
+  color: #fff;
+  height: 4em;
+  border-radius:12px;
+  border:none;
+  text-align: center;
+  font-size:  clamp(1vw, 4vw, 10vw);
+  width: 100%;
+}
+.text::placeholder {
+  color: #fff;
+}
+.todo {
+  display: flex;
+  margin-right: 5%;
+} */

@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.orange_box {
+  width: 65%;
+  margin-left: 45%;
+}
+.orange {
+  transform:rotate(-16deg);
+}
+.nationality_box {
+  text-align: center;
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  top: 5%;
+}
+.nationality_select {
+  color: #fff;
+  background-color: #5B80DD;
+  height: 4em;
+  border-radius:12px;
+  border:none;
+  text-align: center;
+  width: 100%;
+  font-size:  clamp(1vw, 4vw, 10vw)
+}
+.girl_box {
+  width: 125%;
+
+  position: relative;
+  top: 10%;
+}
