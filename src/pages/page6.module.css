@@ -37,9 +37,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-
+/* 鼓動のアニメーション */
+  animation-name: heart_box;
+  animation-duration: 1.5s;/*総時間*/
+  animation-timing-function: ease;/*動き*/
+  animation-delay: 0s;/*遅延時間*/
+  animation-iteration-count: infinite;/*ループ回数*/
+  animation-direction: normal;/*動きの方向(一方方向)*/
+  /*animation-direction: alternate;/*動きの方向(交互反転)*/
+  animation-fill-mode: both;/*キーフレームの適用*/
+  /*animation-play-state: running;/*再生か一時停止*/
 }
+@keyframes heart_box {
+  0%{transform:scale(1,1);}
+  3%{transform:scale(0.9,0.9);}
+  7%{transform:scale(1.4,1.4);}
+  22%{transform:scale(1.05,1.05);}
+  42%{transform:scale(1,1);}
+}
+
+
 .heart_box img {
   width: 90%;
 

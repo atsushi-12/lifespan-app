@@ -1,7 +1,6 @@
 import Message from "@/components/message";
 import Text_Btn from "@/components/text_btn";
 import Head from "next/head";
-import Router from "next/router";
 import { useEffect, useLayoutEffect, useState } from "react";
 import styles from "./page1.module.css";
 
@@ -16,7 +15,6 @@ export default function Name(props) {
 
   const text = selectedLanguage === "Japanese" ? `あなたのお名前\nまたは\nニックネームは？` :`What is your name\nor\nyour nickname？`;
   const placeholder =  selectedLanguage === "Japanese" ? "お名前を入力してください" : "Enter your name";
-  const next = selectedLanguage === "Japanese" ? "次へ" : "next";
 
   return (
     <div className={styles.container}>
