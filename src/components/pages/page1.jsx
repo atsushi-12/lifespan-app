@@ -5,6 +5,7 @@ import { useEffect, useLayoutEffect, useState } from "react";
 import styles from "./page1.module.css";
 
 export default function Name(props) {
+
   const {selectedLanguage, setSelectedLanguage} = props.value
 
   useLayoutEffect(() => {
